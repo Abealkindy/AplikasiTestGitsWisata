@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_dataran_tinggi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dataran Tinggi" />
+
+        <RadioButton
+            android:id="@+id/radio_button_dataran_rendah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dataran Rendah" />
+
+        <RadioButton
+            android:id="@+id/radio_button_pantai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pantai" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="Submit" />
+</LinearLayout>

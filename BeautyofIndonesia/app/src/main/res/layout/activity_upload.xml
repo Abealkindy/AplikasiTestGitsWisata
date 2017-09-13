@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0dc8d6"
+    android:orientation="vertical"
+    tools:context="com.abraham24.beautyofindonesia.Upload">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_view_upload"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Click the icon to select the picture"
+            android:textColor="#FFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etJudul"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_edit_text"
+                android:gravity="center"
+                android:hint="Judul"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+            <EditText
+                android:id="@+id/etLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_edit_text"
+                android:gravity="center"
+                android:hint="Lokasi"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+            <EditText
+                android:id="@+id/etKategori"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_edit_text"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Kategori"
+                android:lines="1"
+                android:textColor="#000"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+            <EditText
+                android:id="@+id/etDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_edit_text"
+                android:gravity="center"
+                android:hint="Deskripsi"
+                android:lines="1"
+                android:textColor="#FFFF"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardUseCompatPadding="true">
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button"
+                android:text="Upload"
+                android:textColor="@android:color/white" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

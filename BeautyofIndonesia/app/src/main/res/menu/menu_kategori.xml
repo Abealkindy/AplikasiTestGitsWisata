@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/datTinggi"
+        android:showAsAction="ifRoom"
+        android:title="Dataran Tinggi" />
+    <item
+        android:id="@+id/datRendah"
+        android:showAsAction="ifRoom"
+        android:title="Dataran Rendah" />
+    <item
+        android:id="@+id/pantai"
+        android:showAsAction="ifRoom"
+        android:title="Pantai" />
+</menu>

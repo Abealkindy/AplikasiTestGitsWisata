@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0dc8d6"
+    android:orientation="vertical"
+    tools:context="com.abraham24.beautyofindonesia.LoginActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_login"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/judul_halaman_login"
+        android:textColor="#FFFF"
+        android:textSize="40sp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/hint_1"
+        android:text="admin"
+        android:textColorHint="@android:color/darker_gray" />
+
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_edit_text"
+        android:gravity="center"
+        android:hint="@string/hint_2"
+        android:inputType="textPassword"
+        android:text="123"
+        android:textColorHint="@android:color/darker_gray" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_button"
+        android:id="@+id/button_sign_in"
+        android:text="@string/text_button_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/text_register"
+        android:text="@string/text_signup"
+        android:textColor="#FFFF"
+        android:textSize="17sp" />
+</LinearLayout>
+
+</LinearLayout>

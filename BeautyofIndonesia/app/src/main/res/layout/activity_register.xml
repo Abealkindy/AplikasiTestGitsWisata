@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0dc8d6"
+    tools:context="com.abraham24.beautyofindonesia.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/judul_halaman_register"
+            android:textColor="#FFFF"
+            android:textSize="40sp" />
+
+
+        <EditText
+            android:id="@+id/edit_text_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/background_edit_text"
+            android:gravity="center"
+            android:hint="@string/hint_3"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <EditText
+            android:id="@+id/edit_text_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:gravity="center"
+            android:hint="@string/hint_4"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <EditText
+            android:id="@+id/edit_text_username_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:gravity="center"
+            android:hint="@string/hint_1"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <EditText
+            android:id="@+id/edit_text_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:gravity="center"
+            android:hint="@string/hint_2"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <EditText
+            android:id="@+id/edit_birth_date"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/hint_5"
+            android:inputType="date"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:paddingLeft="10dp"
+            android:text="@string/hint_6"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/background_edit_text">
+
+            <RadioButton
+                android:id="@+id/radio_button_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_1" />
+
+            <RadioButton
+                android:id="@+id/radio_button_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/gender_2" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/edit_text_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint_7"
+            android:inputType="phone"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/button_sign_up"
+            android:layout_height="45dp"
+            android:textColor="#FFFF"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_button"
+            android:text="@string/text_button_register" />
+
+    </LinearLayout>
+</ScrollView>
